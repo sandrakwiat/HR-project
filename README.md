@@ -45,3 +45,45 @@ Makes it easier to analyze changes in employees' employment information over tim
 This structure also follows a common data modeling approach used in Business Intelligence and analytics projects.
 
 Tools used: Power BI, Power Query
+
+* * *
+
+Step 3: Creating Employee Attributes
+
+The next step was to create additional employee attributes in the dimEmployees table.
+
+I created the following calculated columns:
+
+Age
+
+The Age column was calculated based on each employee's date of birth.
+
+This attribute will allow me to analyze employee turnover across different age groups and identify whether certain age groups are more likely to leave the company.
+
+Tenure
+
+The Tenure column was calculated based on the employee's hire date.
+
+This makes it possible to analyze how employee turnover changes depending on how long an employee has been working for the company.
+
+Tenure Group
+
+To make the analysis easier to interpret, I also created a conditional column that groups employees based on their length of service:
+
+New Employee – less than 1 year
+Short Tenure – 1–2 years
+Medium Tenure – 3–4 years
+Long Tenure – 5 years or more
+Why is this important?
+
+Creating additional employee attributes makes the data easier to analyze and segment.
+
+Age and tenure can be important factors when analyzing employee turnover. Grouping employees into tenure categories also makes the results easier to visualize and understand for business users.
+
+These attributes will later be used to answer questions such as:
+
+Which age groups have the highest turnover?
+Are employees more likely to leave during their first years at the company?
+How does turnover change depending on employee tenure?
+
+Tools used: Power BI, Power Query

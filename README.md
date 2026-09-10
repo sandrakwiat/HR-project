@@ -87,3 +87,40 @@ Are employees more likely to leave during their first years at the company?
 How does turnover change depending on employee tenure?
 
 Tools used: Power BI, Power Query
+
+STEP 4:
+
+Step 4: Creating a Calendar Table
+
+The next step was to create a dedicated Calendar table to support time-based analysis and reporting.
+
+I defined the requirements for the table, including the specific date-related columns needed for the analysis, and used AI as a supporting tool during the development process.
+
+In addition to standard calendar attributes, the table includes columns such as:
+
+Year
+Quarter
+Month
+Month Name
+Week
+Day of the Week
+Holiday Name
+Working Day
+
+The Holiday Name and Working Day columns were created according to the Polish calendar and public holidays.
+
+Why is this important?
+
+A dedicated Calendar table provides a consistent structure for analyzing data over time.
+
+The additional information about Polish public holidays and working days makes it possible to distinguish between regular working days, weekends, and public holidays. This can provide additional context when analyzing monthly employment data and employee turnover.
+
+Creating a dedicated Calendar table also helps build a more structured data model and supports time-based calculations and analysis in Power BI.
+
+AI-assisted development
+
+For this step, AI was used as a development assistant. I defined the required functionality and columns based on the needs of the project, while AI supported the implementation process.
+
+This approach demonstrates how AI can be used to speed up technical work while the analytical requirements, business context, and validation of the final solution remain the responsibility of the analyst.
+
+Tools used: Power BI, DAX, AI

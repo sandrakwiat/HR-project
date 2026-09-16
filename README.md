@@ -124,3 +124,36 @@ For this step, AI was used as a development assistant. I defined the required fu
 This approach demonstrates how AI can be used to speed up technical work while the analytical requirements, business context, and validation of the final solution remain the responsibility of the analyst.
 
 Tools used: Power BI, DAX, AI
+
+Step 5: Building an Organizational Hierarchy
+
+The next step was to create an interactive organizational hierarchy using a Power BI matrix.
+
+I structured the rows into three levels:
+
+Division
+Department
+Team
+
+I then added key HR metrics as columns:
+
+Headcount
+FTE
+Number of Leavers
+Turnover Rate
+
+The hierarchy allows users to drill down from a high-level view of the organization to individual teams, making it possible to analyze workforce metrics at different organizational levels.
+
+Why is this important?
+
+Looking at HR metrics only at the company level can hide differences between individual departments and teams.
+
+The hierarchical matrix makes it possible to quickly identify where employee turnover is occurring and investigate the organizational areas behind the overall result.
+
+For example, in the fictional data shown below for June 2026, the company-wide turnover rate was 5.0%. When drilling down into the organizational structure, all recorded leavers were within the Quality Assurance department, across two teams: Automatyzacja QA and Testy Manualne.
+
+This illustrates how moving from a high-level metric to a more granular organizational view can provide additional context and help HR identify areas for further investigation.
+
+Example: June 2026
+
+The matrix provides both a workforce overview and a way to explore the distribution of employee turnover across the organization.

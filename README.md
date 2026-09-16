@@ -157,3 +157,56 @@ This illustrates how moving from a high-level metric to a more granular organiza
 Example: June 2026
 
 The matrix provides both a workforce overview and a way to explore the distribution of employee turnover across the organization.
+
+Step 6: Adding Interactive HR Analysis
+
+The next step was to build interactive visuals that allow HR users to explore workforce trends and employee turnover from different perspectives.
+
+Employment Type Filter
+
+I added a slicer allowing users to filter the report by employment type:
+
+B2B
+UoP (employment contract)
+
+This makes it possible to compare workforce metrics and turnover between different types of employment.
+
+Headcount and Turnover Trends
+
+I created two line charts showing how Headcount and Turnover Rate changed over time.
+
+For the date slicer, I modified the default visual interactions. Instead of allowing the selected month to filter the entire line chart down to a single point, I configured the interaction so that the charts maintain the broader historical view.
+
+This allows users to select a specific reporting period while still seeing the longer-term trend and putting the current result into context.
+
+Age Groups and Gender
+
+I created an Age Group conditional column based on employee age. Employees were grouped into age ranges of 10 years.
+
+I then used these groups to visualize the distribution of Headcount by age and gender.
+
+This provides an overview of the demographic structure of the workforce and allows HR users to explore how the employee population is distributed across different age groups.
+
+Decomposition Tree
+
+I also created a Decomposition Tree to investigate employee turnover.
+
+The visualization allows users to start with the total Number of Leavers and progressively break it down by organizational dimensions, such as:
+
+Division → Department → Team → Employee
+
+This provides an interactive way to explore where employee departures are concentrated and move from a high-level KPI to more detailed information.
+
+Why is this important?
+
+The purpose of this step was to move beyond static reporting and create an interactive analytical tool.
+
+The combination of filters, trend analysis, demographic segmentation and the decomposition tree allows HR users to:
+
+analyze workforce trends over time,
+compare different employment types,
+understand the age and gender structure of the workforce,
+investigate employee turnover at different organizational levels,
+and identify areas that may require further analysis.
+
+Tools used: Power BI, Power Query, DAX
